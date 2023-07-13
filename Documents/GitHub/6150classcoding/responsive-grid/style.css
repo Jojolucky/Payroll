@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  /* background-color: papayawhip; */
+
+  font-family: sans-serif;
+}
+#foot {
+  background-color: blue;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(12 1fr);
+}
+.header__logo {
+  grid-column: span 2;
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.header__title {
+  grid-column: span 10;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.5rem;
+  background-color: aquamarine;
+}
+
+.card {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  background-color: palegreen;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 5px 5px black;
+}
+.card__title {
+  text-align: center;
+}
+.card__pic {
+  aspect-ratio: 1/1;
+  width: 80%;
+  border-radius: 1rem;
+}
+
+.card__text {
+  margin: 2rem;
+}
+.card__cta {
+  display: inline-block;
+  padding: 0.5rem;
+  border: 0.25rem;
+  border: 1px solid green;
+  color: white;
+  background-color: green;
+  text-align: center;
+  text-decoration: none;
+}
+.footer__menu {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__item {
+  grid-column: span 4;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 40rem) {
+  .main {
+    background-color: red;
+  }
+  .card {
+    grid-column: span 4;
+  }
+}
+/* #root {
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: dodgerblue;
+}
+
+.header__logo {
+  align-self: flex-start;
+  aspect-ratio: 1/1;
+  width: 50px;
+}
+
+.header__title {
+  margin: 0;
+}
+.globalnav {
+  background-color: peachpuff;
+  width: 100%;
+}
+
+.globalnav__menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer {
+  background-color: dodgerblue;
+}
+@media screen and (min-width: 40rem) {
+  .globalnav__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 50rem) {
+  #root {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "globalnav globalnav"
+      "localnav main"
+      "footer footer";
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: auto auto auto 1fr auto;
+
+    height: 100%;
+  }
+}
+
+.header {
+  grid-area: header;
+}
+.globalnav {
+  grid-area: globalnav;
+}
+.localnav {
+  grid-area: localnav;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+} */
