@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="linkedList.SingleLinkedList.HeroNode"/>
+    <fullyQualifiedTypeName name="linkedList.SingleLinkedList"/>
+    <fullyQualifiedTypeName name="linkedList.SingleLinkedList.SingleLinkedListTest"/>
+    <fullyQualifiedTypeName name="java.awt.HeadlessException"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.css.CSSFontFaceRule"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.StaticDeoptimizingNode"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="linkedList.HeroNode"/>
+</qualifiedTypeNameHistroy>

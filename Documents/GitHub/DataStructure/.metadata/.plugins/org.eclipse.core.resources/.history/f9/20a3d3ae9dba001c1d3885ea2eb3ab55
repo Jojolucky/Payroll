@@ -1,0 +1,23 @@
+package sparseArray;
+
+public class SparseArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 创建一个原始的二维数组 11*11
+		// 0： 表示没有棋子， 1: 表示黑子  2: 表示蓝子
+		int[][] chaseArray = new int[11][11];
+		chaseArray[1][2] = 1;
+		chaseArray[2][3] = 2;
+		// 输出原始的二维数组
+		System.out.println("原始二维数组：");
+		for(int[] row : chaseArray) {
+			for(int data : row) {
+				System.out.printf("%d\t",data);
+			}
+			System.out.println("\n");
+		}
+
+	}
+
+}
